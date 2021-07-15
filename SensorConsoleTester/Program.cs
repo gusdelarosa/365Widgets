@@ -8,8 +8,10 @@ namespace SensorConsoleTester
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");            
-            var path = @"../../../sample.txt";
+            //Visual Studio      
+            //var path = @"../../../sample.txt"; 
+            //VSCode
+            var path = @"sample.txt";
             using (StreamReader sr = new StreamReader(path))
             {
                 //This allows you to do one Read operation.

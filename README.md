@@ -16,3 +16,7 @@ A couple of things I would've done given more time.
 - All of the readings are handled as decimals, CO readings are integers
    - I could spent more time thinking about how this would affect precision
 - Better system for determining classification i.e. no hardcoded values
+
+## Running SensorConsoleTester
+
+VSCode and Visual Studio handle relative files differently. See `Program.cs` to change path depending on where the code is run
